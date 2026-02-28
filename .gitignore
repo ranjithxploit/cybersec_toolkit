@@ -1,0 +1,66 @@
+# Rust build artifacts
+**/target/
+**/*.rs.bk
+**/Cargo.lock
+
+# Debug files
+**/*.pdb
+**/*.d
+
+# Rust incremental compilation
+**/incremental/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build outputs
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+*.app
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+*.temp
+.cache/
+
+# Sensitive data (never commit)
+*.key
+*.pem
+*.crt
+secrets.txt
+.env
+config.local.*
